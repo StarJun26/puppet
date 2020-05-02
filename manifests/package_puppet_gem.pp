@@ -1,4 +1,4 @@
 package { 'r10k':
-ensure   => absent,
+ensure   => installed,
 provider => puppet_gem,
 }
