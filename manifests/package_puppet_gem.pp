@@ -1,4 +1,4 @@
 package { 'r10k':
-ensure   => purged,
+ensure   => absent,
 provider => puppet_gem,
 }
