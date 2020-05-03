@@ -1,0 +1,5 @@
+ssh_authorized_key { 'rollandfotsing@gmail.com':
+user => 'rolland',
+type => 'ssh-rsa',
+key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQC7TqHZazxw0GlCMv/tg/fk4WzYqZhNVgCWhh2VfKxE7K3ZS2fhyzSVvZQzeslXZ8EHDPnbCU+H7ufjevfTZ5QQZuHdoY4lXOy0gKPehLK6gPkz/nzzHyh2bkx9CWj7HzwTk/jTdo2jWkfbUrLzh8dtaIY/OEsaf8SBOGJAmSUhg4omMXXVDSMWqeOi4KUYsL3YnWAcGyyQA/O7Z14ESqQijKNrHTZGSBs03SMBiByjZOC3PAuC3ZFh/wh2DdtVuUIrrVE0b4X5ctjMG450H9LG8QOQCswhk795TWcsBXK/0EQuxnD/qbAQuhHuViBXmXLUu6FxcgSMBpFuuTH56ylf',
+}
