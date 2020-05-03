@@ -1,4 +1,12 @@
-node "mynode.ec2.internal" {
+class user-group {
+
+	file { '/home/rolland':
+	ensure => directory,
+	owner => 'rolland',
+	group => 'devs',
+	mode => 700,
+	require =>[User['rolland'], Group['devs']],
+	}
 
 	group { 'devs':
 	ensure => present,
@@ -11,6 +19,5 @@ node "mynode.ec2.internal" {
 	home => '/home/rolland',
 	uid => '3001',
 	managehome => true,
-	groups => ['devs'],
 	}
 }
