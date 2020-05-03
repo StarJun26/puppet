@@ -2,6 +2,7 @@ node "mynode.ec2.internal" {
 
 	group { 'devs':
 	ensure => present,
+	provider => groupadd
 	gid => 3000,
 	}
 
@@ -10,6 +11,7 @@ node "mynode.ec2.internal" {
 	uid => '3001',
 	home => '/home/rolland',
 	shell => '/bin/bash',
+	provider => useradd,
 	groups => ['devs'],
 	}
 }
