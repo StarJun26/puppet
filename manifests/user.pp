@@ -2,8 +2,8 @@ node "mynode.ec2.internal" {
 
 	group { 'devs':
 	ensure => present,
-	provider => groupadd
-	gid => 3000,
+	provider => groupadd,
+	gid => 3000
 	}
 
 	user { 'rolland':
