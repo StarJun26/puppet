@@ -1,4 +1,3 @@
-class create-user{
 	file {'/home/rolland':
 	ensure => directory,
 	owner => 'rolland',
@@ -20,4 +19,3 @@ class create-user{
 	managehome => true,
 	groups => ['devs'],
 	}
-}
