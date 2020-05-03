@@ -1,4 +1,4 @@
-class user-group {
+class users {
 
 	file { '/home/rolland':
 	ensure => directory,
