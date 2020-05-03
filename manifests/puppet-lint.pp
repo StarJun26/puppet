@@ -3,6 +3,6 @@ ensure => installed,
 }
 
 package { 'puppet-lint':
-ensure   => installed,
+ensure   => absent,
 provider => gem,
 }
