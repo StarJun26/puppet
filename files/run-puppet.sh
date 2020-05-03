@@ -1,4 +1,4 @@
-#!usr/bin/env bash
+#!/bin/env bash
 cd /etc/puppetlabs/code/environments/production && git pull
 /opt/puppetlabs/bin/puppet apply manifests/
 
