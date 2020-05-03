@@ -1,4 +1,4 @@
-ssh_authorized_key { 'rollandfotsing@gmail.com':
+ssh_authorized_key { 'rollandfotsing@ymail.com':
 user => 'rolland',
 type => 'ssh-rsa',
 key => 'AAAAB3NzaC1yc2EAAAABIwAAAIEA3ATqENg+GWACa2
