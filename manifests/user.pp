@@ -1,6 +1,5 @@
-class users {
-
-	file { '/home/rolland/':
+class create-user{
+	file {'/home/rolland':
 	ensure => directory,
 	owner => 'rolland',
 	group => 'devs',
@@ -17,7 +16,7 @@ class users {
 	ensure => present,
 	shell => '/bin/bash',
 	home => '/home/rolland/',
-	uid => '3001',
+	uid => '3002',
 	managehome => true,
 	groups => ['devs'],
 	}
