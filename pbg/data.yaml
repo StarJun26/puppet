@@ -1,6 +1,0 @@
----
-test: 'This is only a test'
-consul_node: true
-apache_worker_factor: 100
-apparmor_enabled: true
-...
